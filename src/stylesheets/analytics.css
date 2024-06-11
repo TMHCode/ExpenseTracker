@@ -1,0 +1,41 @@
+.total-transactions{
+    box-shadow: 0 0 0 1px #e1e1e1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.total-turnover{
+    box-shadow: 0 0 0 1px #e1e1e1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.income-categories{
+    box-shadow: 0 0 0 1px #e1e1e1;
+    padding: 20px;
+    width: 47%;
+    border-radius: 5px;
+    background-color: #f1fbe6;
+}
+.expense-categories{
+    box-shadow: 0 0 0 1px #e1e1e1;
+    padding: 20px;
+    width: 47%;
+    border-radius: 5px;
+    background-color: #fcefef;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+}
+
+p{
+    color:#4f4f4f;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+.progress-label{
+    margin-bottom: 0;
+}
