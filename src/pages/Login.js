@@ -76,7 +76,8 @@ function Login() {
         }
     }
     // the page
-    return <div className='flex h-screen justify-center items-center'>
+    return (
+    <div className='flex h-screen justify-center items-center'>
         <Card
             style={{
                 width: 400,
@@ -135,7 +136,8 @@ function Login() {
                 </Stack>
             </form>
         </Card>
-    </div>;
+    </div>
+    );
 }
 
 export default Login

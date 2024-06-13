@@ -85,7 +85,10 @@ function Home() {
 
 
   return (
-    <Box mx={20}>
+    <Box
+      mx={20} 
+      style={{maxWidth: '1200px'}}
+    >
       <Header />
       <div className='container'>
         <Card

@@ -7,6 +7,7 @@ import cryptojs from "crypto-js";
 import { notifications } from '@mantine/notifications';
 import { useDispatch } from 'react-redux';
 import { HideLoading, ShowLoading } from '../redux/alertsSlice';
+import categories from '../objects/categories';
 
 function Register() {
     const dispatch = useDispatch();
@@ -60,6 +61,17 @@ function Register() {
                         }
                     );
                     if (response.id) { //response.id will always be available cause of field check above
+                        // add categories
+                        await categories.forEach(function(category) {
+                        addDoc(
+                            collection(
+                              fireDb,
+                              `users/${response.id}/categories`
+                            ),
+                            category
+                          );
+                        });
+
                         notifications.show({
                             title: "User created!",
                             message: "Welcome :)",
