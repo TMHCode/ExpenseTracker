@@ -113,7 +113,7 @@ function Register() {
                     variant="gradient"
                     gradient={{ from: 'rgba(71, 82, 43, 1)', to: 'green', deg: 90 }}
                 >
-                    ExpenseTracker
+                    FineAnts
                 </Text>
             </Group>
             <Divider

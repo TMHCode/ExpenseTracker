@@ -17,7 +17,7 @@ function Header() {
                         variant="gradient"
                         gradient={{ from: 'rgba(71, 82, 43, 1)', to: 'green', deg: 90 }}
                     >
-                        ExpenseTracker
+                        FineAnts
                     </Text>
                     <Group className='flex items-center'>
                         <Text size='xl' fw={700}>{user?.name}</Text>
